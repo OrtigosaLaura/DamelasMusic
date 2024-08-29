@@ -1,0 +1,14 @@
+git config --global user.name OrtigosaLaura
+git config --global user.email lauraortigosa378@gmail.com
+
+Criar projeto:
+npx create-expo-app@latest DamelasMusic --template blank
+cd DamelasMusic
+
+Instalar pacotes nescessários: 
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+npx expo install @react-native-community/slider
+
+npx expo install expo-av
+npx expo start --android --localhost
